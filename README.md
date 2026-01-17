@@ -9,3 +9,10 @@ https://github.com/RyanKimTech/glances.git, entering the project
 directory, making the installer executable, and running it with sudo. The dashboard is
 accessed through the same URL. Uninstallation requires making the uninstaller executable
 and running it with sudo. The project is licensed under MIT.
+
+Install with curl:
+curl -fsSL -o install-glances.sh https://raw.githubusercontent.com/RyanKimTech/glances/main/install-glances.sh && sudo bash install-glances.sh
+
+Uninstall with curl:
+curl -fsSL https://raw.githubusercontent.com/RyanKimTech/glances/main/uninstall-glances.sh | sudo bash
+
