@@ -5,7 +5,7 @@ environment, enables full hardware sensor support including CPU temperatures, NV
 temperatures, fan speeds, and voltage readings, runs Glances as a systemd service,
 starts it automatically on boot, and provides access to the dashboard at
 http://NODE_IP:61208. Installation requires cloning the repository from
-https://github.com/your-username/glances-monitoring-suite.git, entering the project
+https://github.com/RyanKimTech/glances-monitoring-suite.git, entering the project
 directory, making the installer executable, and running it with sudo. The dashboard is
 accessed through the same URL. Uninstallation requires making the uninstaller executable
 and running it with sudo. The project is licensed under MIT.
