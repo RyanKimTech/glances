@@ -1,12 +1,11 @@
-1. Overview
-This project provides a clean, repeatable installer for running the Glances monitoring
-dashboard with a full web UI on Proxmox or any Debian-based system. It includes an
-isolated Python virtual environment, a systemd service, hardware sensor support, a
-reversible uninstaller, a GitHub-ready README, and a release ZIP for distribution.
-2. Features
-The installer sets up Glances in the /opt/glances directory using a Python virtual
-environment, enables hardware sensors including CPU temperatures, NVMe temperatures, fan
-speeds, and voltage readings, runs Glances as a persistent systemd service, starts it
-automatically on boot, provides a web interface accessible at http://NODE_IP:61208,
-includes a clean uninstaller that removes all Glances components, and preserves
-sensors-detect changes as requested in Option 3B.
+Glances Web UI Installer for Proxmox and Debian. This project provides a clean,
+repeatable installer for running the Glances monitoring dashboard with a full web
+interface on Proxmox or any Debian-based system. It installs Glances in a Python virtual
+environment, enables full hardware sensor support including CPU temperatures, NVMe
+temperatures, fan speeds, and voltage readings, runs Glances as a systemd service,
+starts it automatically on boot, and provides access to the dashboard at
+http://NODE_IP:61208. Installation requires cloning the repository from
+https://github.com/your-username/glances-monitoring-suite.git, entering the project
+directory, making the installer executable, and running it with sudo. The dashboard is
+accessed through the same URL. Uninstallation requires making the uninstaller executable
+and running it with sudo. The project is licensed under MIT.
