@@ -11,7 +11,7 @@ accessed through the same URL. Uninstallation requires making the uninstaller ex
 and running it with sudo. The project is licensed under MIT.
 
 Install with curl:
-curl -fsSL -o install-glances.sh https://raw.githubusercontent.com/RyanKimTech/glances/main/install-glances.sh && sudo bash install-glances.sh
+curl -fsSL -o install-glances.sh https://raw.githubusercontent.com/RyanKimTech/glances/main/install-glances.sh && bash install-glances.sh
 
 Uninstall with curl:
 curl -fsSL https://raw.githubusercontent.com/RyanKimTech/glances/main/uninstall-glances.sh | sudo bash
